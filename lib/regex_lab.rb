@@ -4,7 +4,7 @@ def starts_with_a_vowel?(word)
   binding.pry
      if !/\b[aeiouAEIOU]/
        true
-     else !/\b[^aeiouAEIOU]/
+     else 
        false
      end
  end
