@@ -1,7 +1,7 @@
 require 'pry'
 
 def starts_with_a_vowel?(word)
-     !/\b[aeiouAEIOU]/ == true 
+     !/\b[aeiouAEIOU]/ == true
      !/\b[^aeiouAEIOU]/ == false
  end
 
